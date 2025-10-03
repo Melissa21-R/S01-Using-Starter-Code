@@ -44,3 +44,7 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 2. Under "Source", select "GitHub Actions"
 3. The workflow will automatically deploy on pushes to the `main` branch
 4. Your site will be published at `https://<your-github-username>.github.io/<repository-name>/`
+
+### My Changes
+
+In order to make the button work, I looked through the code to understand what it was doing. I saw that the only piece missing was to add the call to increment the count, that being count++. Once I did that I noticed it still didnt work, but I incremented the count. The TA kept mentioning HTML syntax which I didnt quite understand what inner html was so I asked the chat bot. It told me it was the screen upadating and I needed to call it with counter ID. I also needed to change the numbers to strings so it would print properly. After that my counter increased and I was done!
